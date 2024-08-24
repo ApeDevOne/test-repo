@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Update Checker",
+  "version": "1.0",
+  "description": "A simple extension to check for updates.",
+  "permissions": ["notifications", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
